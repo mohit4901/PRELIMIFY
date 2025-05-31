@@ -2,10 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Caesar+Dressing&family=Comforter&family=Foldit:wght@100..900&family=Grechen+Fuemen&family=Jura:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Londrina+Solid:wght@100;300;400;900&family=Love+Light&family=Michroma&family=Orbitron:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sedgwick+Ave+Display&family=Sigmar&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&family=Staatliches&family=Tourney:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>main</title>
 </head>
 <body>
+   <div class="navbar">
+    <div class="logo">
+    </div>
+    <button id="toggleBtn" class="toggle-btn">☰</button>
+    <div class="hello">
+        <div class="profile-photo"></div>
+        <h1>Hello,User</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Select Exam ▼</button>
+            <div class="dropdown-content" id="dropdownList">
+              <a href="#">UPSC</a>
+              <a href="#">State Civil Services</a>
+              <a href="#">SSC-CGL</a>
+              <a href="#">SSC-CHSL</a>
+            </div>
+          </div>
+    </div>
+    <div class="dailygoal">
+        <button><a href="#">Daily Goals🏆</a></button>
+    </div>
+   </div>
+    <div class="sidebar">
+        <div class="nav-buttons">
+          <a href="#" class="nav-btn"><i class="fa-solid fa-house"></i> Home</a>
+          <a href="#" class="nav-btn"><i class="fa-solid fa-file-lines"></i>     Tests</a>
+          <a href="#" class="nav-btn"><i class="fa-solid fa-user-plus"></i>  Premium</a>
+          <a href="#" class="nav-btn"><i class="fa-solid fa-user"></i>  Profile</a>
+          <a href="#" class="nav-btn"><i class="fa-solid fa-calendar-days"></i>  My Exam</a>
+          <a href="#" class="nav-btn"><i class="fa-solid fa-bell"></i>  Notifications</a>
+        </div>
+        <div class="logout">
+          <button class="logout-btn">Logout  <i class="fa-solid fa-power-off"></i></button>
+        </div>
+      </div>
     
+    
+      <div class="sec">
+        <div class="sec1">
+            <div class="que-bank">
+        <h2>Topic-wise Que Bank</h2>
+       <button> <a href="#">View All</a></button>
+    </div>
+        <div class="buttons">
+            <button><a href="#">UPSC</a></button>
+            <button><a href="#">SSC-CGL</a></button>
+            <button><a href="#">SSC-CHSL</a></button>
+            <button><a href="#">STATE CIVIL SERVICES</a></button>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>
