@@ -17,3 +17,14 @@ const sidebar = document.querySelector('.sidebar');
 toggleBtn.addEventListener('click', () => {
   sidebar.classList.toggle('active');
 });
+
+  const scrollContainer = document.getElementById('scrollable-buttons');
+  const scrollAmount = 200;
+
+  document.querySelector('.scroll-btn.left').addEventListener('click', () => {
+    scrollContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  document.querySelector('.scroll-btn.right').addEventListener('click', () => {
+    scrollContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });

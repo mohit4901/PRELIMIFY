@@ -44,6 +44,7 @@
 color:black;
 font-family:"Jura", sans-serif; 
 }
+
 .logo{
     background-image: url('logo.jpg'); 
   background-size: cover;
@@ -194,6 +195,127 @@ font-size:1.2rem;
 font-weight:700;
 font-family:"Jura", sans-serif; 
 }
+
+.sec .buttons{
+    padding: 10px 20px;
+    gap:2rem;
+}
+.sec .buttons button{
+   background:none;
+margin-left:5rem;
+margin-top:3rem;
+font-family:"Jura", sans-serif; 
+   border:1px solid black;
+   padding:1rem;
+   border-radius:1rem;
+   transition: background 0.3s ease;
+}
+.sec .buttons button a{
+text-decoration:none;
+color:black;
+font-size:1.5rem;
+
+}
+.sec .buttons button:hover{
+ 
+    background-color: rgb(222, 222, 222);
+}
+
+.sec2{
+  padding-top:15rem;
+  margin-left:25rem;
+  margin-bottom:5rem;
+  }
+  .sec2txt{
+    display:flex;
+    justify-content:space-between
+  }
+
+.sec2txt button{
+    background:none;
+    border:none;
+margin-right:2rem;
+}
+.sec2txt button a{
+margin-right:2rem;
+text-decoration:none;
+color:black;
+font-size:1.2rem;
+font-weight:700;
+font-family:"Jura", sans-serif; 
+}
+
+.sec2 .buttons{
+  padding: 10px 20px;
+  gap:2rem;
+  width:95%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.sec2 .buttons button{
+ background:none;
+margin-left:5rem;
+margin-top:3rem;
+font-family:"Jura", sans-serif; 
+ border:1px solid black;
+ padding:1rem;
+ border-radius:1rem;
+ transition: background 0.3s ease;
+}
+.sec2 .buttons button a{
+text-decoration:none;
+color:black;
+font-size:1.5rem;
+
+}
+.sec2 .buttons button:hover{
+
+  background-color: rgb(222, 222, 222);
+}
+
+
+.scroll-btn {
+  background: #f0f0f0;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top:1rem;
+  z-index: 1;
+  transition: background 0.3s;
+}
+
+.scroll-btn:hover {
+  background: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
